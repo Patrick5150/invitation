@@ -1,0 +1,629 @@
+
+
+@font-face {
+    font-family: 'Shilla_CultureB-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureB-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'KBIZHanmaumMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dokrip';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Dokrip.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+:root {
+    --font-point: 'Shilla_CultureB-Bold';
+    --font-nomal: 'KBIZHanmaumMyungjo';
+
+}
+
+* {
+    font-family: var(--font-nomal);
+    font-weight: bold;
+
+}
+
+
+ /*****************  bg  ******************/
+
+html {
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url(./greenBG.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+body {
+    margin: 2rem auto;
+    max-width: 600px;
+    /* background-image: url(./greenBG.jpg); */
+    width: 600px;
+    height: auto;
+    z-index: -2;
+}
+
+
+.contaienr__bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    z-index: 5;
+}
+
+
+.container__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 82%;
+    height: auto;
+    background-image: url(./paper_bg.jpg);
+    border-radius: 0.2rem;
+    border: 2px solid;
+    border-image: linear-gradient(to right bottom, #e6cfa3, #ba7b36);
+    border-image-slice: 1;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    /* z-index: 1; */
+}
+
+
+
+
+ /*****************  bg_deco  ******************/
+
+.deco-box {
+    width: 100vw;
+}
+
+.deco01 {
+    position: fixed;
+    width: 20rem;
+    bottom: -18px;
+    left: -25px;
+    z-index: -1;
+}
+
+.deco02 {
+    position: absolute;
+    width: 5rem;
+    top: 15rem;
+    left: -2rem;
+
+}
+
+.deco03 {
+    position: absolute;
+    width: 18em;
+    right: -12px;
+    top: -5px;
+
+}
+
+
+
+
+
+ /*****************  Title text  ******************/
+ .title__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin-top: 5.65rem;
+    margin-bottom: 2.2rem;
+}
+
+
+.title__text h1 {
+    font-family: var(--font-point);
+    font-size: 6.0rem;
+    line-height: 6.4rem;
+    text-align: center;
+    word-break: keep-all;
+    color: #ba7b36;
+}
+
+
+
+.title__text h2 {
+    font-family: var(--font-point);
+    font-size: 4.8rem;
+    text-align: center;
+    word-break: keep-all;
+    line-height: 5.8rem;
+    color: #475576;
+}
+
+.title__text h3 {
+    font-family: var(--font-point);
+    font-size: 3.8rem;
+    text-align: center;
+    word-break: keep-all;
+    line-height: 5.8rem;
+    color: #7d89a0;
+    padding-left: 0.5rem;
+}
+
+
+
+
+ /*****************  text  ******************/
+
+
+
+.detail__text {
+    width: 70%;
+    text-align: center;
+    word-break: keep-all;
+    font-size: 1.2em;
+    letter-spacing: -0.082em;
+    line-height: 1.9em;
+    color: #505c78;
+    margin-bottom: 1rem;
+
+}
+
+.name__text {
+    font-size: 1.36rem;
+    margin-bottom: 2.9rem;
+    color: #494776;
+}
+
+
+
+  /*****************  line  ******************/
+
+  
+
+  .deco__line {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .deco__line .deco04 {
+    width: 42px;
+    height: 50px;
+    background-image: url(./gr___005.png);
+    background-size: contain;
+    margin-bottom: 3.7rem;
+    margin-top: 1.5rem;
+}
+
+.deco__line h3 {
+    font-family: 'Dokrip';
+    font-size: 1.6rem;
+    color: #505c78;
+    margin-bottom: 2rem;
+}
+
+
+
+/*****************  date  ******************/
+
+.date__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.0rem;
+}
+
+
+.circle {
+    width: 0.36rem;
+    height: 0.36rem;
+    background-color: #81a897;
+    border-radius: 100%;
+    margin: 0 0.7rem;
+}
+
+.date__box h3 {
+    color: #505c78;
+    font-size: 1.1rem;
+}
+
+.date__box h2 {
+    font-size: 1.8rem;
+    color: #d89c44;
+}
+
+
+
+
+
+/*****************  Location  ******************/
+
+.adderss__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adderss__box h2 {
+    font-size: 1.68rem;
+    line-height: 2em;
+    font-weight: bold;
+    letter-spacing: -0.062em;
+    word-spacing: -0.0375em;
+    color: #494776;
+    z-index: 5;
+}
+
+.adderss__box p {
+    width: 70%;
+    text-align: center;
+    word-break: keep-all;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    letter-spacing: -0.062em;
+    word-spacing: -0.0375em;
+    color: #505c78;
+    margin-bottom: 1.6rem;
+    margin-top: 1rem;
+}
+
+
+.deco__05{
+    margin-top: -1.8rem;
+    width: 58%;
+    height:10px;
+    background-color: #ccedaf;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+    opacity: 0.4;
+}
+
+
+
+/*****************  Call  ******************/
+
+
+
+.call__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+
+.call__box a {
+    color: #d89c44;
+    font-size: 1.2rem;
+    letter-spacing: 0.056rem;
+}
+
+.material-symbols-outlined {
+    margin-right: 0.2rem;
+    color: #d89c44;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=============  MEDIA QUERIES (SMALL DEVICES)Mobile  =============*/
+/* 최대너비 600px으로 지정 */
+
+
+@media screen and (max-width: 600px) {
+
+
+ /*****************  bg  ******************/
+
+ html {
+    width: 100%;
+    height: 100%;
+    background-image: url(./greenBG.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+body {
+    max-width: 600px;
+    /* background-image: url(./greenBG.jpg); */
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+
+ .contaienr__bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 5;
+}
+
+
+.container__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 89vw;
+    height: auto;
+    background-image: url(./paper_bg.jpg);
+    border-radius: 0.2rem;
+    border: 2px solid;
+    border-image: linear-gradient(to right bottom, #e6cfa3, #ba7b36);
+    border-image-slice: 1;
+    margin-top: 1.4rem;
+    margin-bottom: 3.5rem;
+    /* z-index: 1; */
+}
+
+
+
+
+
+
+ /*****************  bg_deco  ******************/
+
+    .deco-box {
+        width: 100vw;
+    }
+
+    .deco01 {
+        position: fixed;
+        width: 15rem;
+        bottom: -18px;
+        left: -28px;
+        z-index: -1;
+    }
+
+    .deco02 {
+        position: absolute;
+        top: 24rem;
+        left: -2rem;
+        width: 5rem;
+
+    }
+
+    .deco03 {
+        position: absolute;
+        width: 14em;
+        right: -12px;
+        top: -5px;
+
+    }
+
+
+
+
+ /*****************  Title text  ******************/
+
+    .title__text {
+        width: 83%;
+        margin-top: 4.56em;
+        margin-bottom: 2.2rem;
+    }
+
+
+    .title__text h1 {
+        font-family: var(--font-point);
+        font-size: 4.9rem;
+        line-height: 5rem;
+        text-align: center;
+        word-break: keep-all;
+        color: #ba7b36;
+
+    }
+
+    .title__text h2 {
+        font-family: var(--font-point);
+        font-size: 3.65rem;
+        line-height: 4.4rem;
+        text-align: center;
+        word-break: keep-all;
+        color: #475576;
+    }
+
+    .title__text h3 {
+        font-family: var(--font-point);
+        font-size: 2.6rem;
+        line-height: 3.8rem;
+        text-align: center;
+        word-break: keep-all;
+        color: #7d89a0;
+        padding-left: 0.5rem;
+    }
+
+
+
+
+
+
+ /*****************  text  ******************/
+
+
+    .detail__text {
+        width: 74%;
+        text-align: center;
+        word-break: keep-all;
+        font-size: 1.1em;
+        line-height: 1.72em;
+        letter-spacing: -0.062em;
+        color: #505c78;
+        margin-bottom: 0.9rem;
+    }
+
+    .name__text {
+        font-size: 1.2rem;
+        margin-bottom: 2.0rem;
+        color: #494776;
+    }
+
+
+
+
+/*****************  date  ******************/
+
+    .date__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.0rem;
+    }
+
+
+    .circle {
+        width: 0.36rem;
+        height: 0.36rem;
+        background-color: #81a897;
+        border-radius: 100%;
+        margin: 0 0.7rem;
+    }
+
+    .date__box h3 {
+        color: #494776;
+    }
+
+    .date__box h2 {
+        font-size: 1.5rem;
+        color: #d89c44;
+    }
+
+    .add .deco04 {
+        margin-bottom: 1.85rem;
+    }
+
+
+
+
+
+    
+  /*****************  line  ******************/
+
+  .deco__line {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.deco__line .deco04 {
+    width: 42px;
+    height: 50px;
+    background-image: url(./gr___005.png);
+    background-size: contain;
+    margin-bottom: 2.8rem;
+    margin-top: 1.5rem;
+}
+
+.deco__line h3 {
+    font-family: 'Dokrip';
+    font-size: 1.6rem;
+    color: #505c78;
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+
+/*****************  Location  ******************/
+
+    .adderss__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.3rem;
+    }
+
+    .adderss__box h2 {
+        line-height: 1.8em;
+        word-spacing: -0.0375em;
+        color: #494776;
+    }
+
+    .adderss__box p {
+        margin-bottom: 1.2rem;
+        line-height: 1.6rem;
+    }
+    
+    .deco__05{
+        margin-top: -1.5rem;
+        width: 73%;
+        height:10px;
+        background-color: #ccedaf;
+        background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+        opacity: 0.4;
+    }
+
+
+
+/*****************  Call  ******************/
+
+    .call__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
+        margin-top: 1.45rem;
+    }
+
+
+    .call__box a {
+        color: #d89c44;
+        font-size: 1.15rem;
+        letter-spacing: 0.056rem;
+    }
+
+    .material-symbols-outlined {
+        margin-right: 0.2rem;
+        color: #d89c44;
+    }
+
+
+
+
+
+
+
+
+
+
+}
