@@ -27,7 +27,7 @@
     --font-nomal: 'KBIZHanmaumMyungjo';
 
     --color--yellow: #d89c44;
-    --color--blue:#505c78;
+    --color--blue: #505c78;
     --color--blue-dark: #494776;
 
     --color--white: #fff;
@@ -42,7 +42,7 @@
 }
 
 
-.fade-in{
+.fade-in {
     animation: fadeIn 2s ease;
 }
 
@@ -56,7 +56,7 @@
     }
 }
 
- /*****************  bg  ******************/
+/*****************  bg  ******************/
 
 html {
     z-index: -2;
@@ -76,7 +76,7 @@ body {
     width: 600px;
     height: auto;
     z-index: -2;
-    
+
 }
 
 
@@ -108,7 +108,7 @@ body {
 
 
 
- /*****************  bg_deco  ******************/
+/*****************  bg_deco  ******************/
 
 .deco-box {
     width: 100vw;
@@ -141,9 +141,9 @@ body {
 
 
 
- /*****************  Title text  ******************/
+/*****************  Title text  ******************/
 
- .title__text {
+.title__text {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -172,7 +172,7 @@ body {
     text-align: center;
     word-break: keep-all;
     line-height: 5.8rem;
-    color:var(--color--blue);
+    color: var(--color--blue);
 }
 
 .title__text h3 {
@@ -188,11 +188,11 @@ body {
 
 
 
- /*****************  text  ******************/
+/*****************  text  ******************/
 
 
- .profile__img{
-    width:76%;
+.profile__img {
+    width: 76%;
 }
 
 
@@ -203,7 +203,7 @@ body {
     font-size: 1.2em;
     letter-spacing: -0.022em;
     line-height: 1.78em;
-    color:var(--color--blue);
+    color: var(--color--blue);
     margin-bottom: 1rem;
     margin-top: 1.2rem;
 }
@@ -213,16 +213,16 @@ body {
 .name__text {
     font-size: 1.36rem;
     margin-bottom: 2.3rem;
-    color:var(--color--blue-dark);
+    color: var(--color--blue-dark);
 }
 
 
 
-  /*****************  line  ******************/
+/*****************  line  ******************/
 
-  
 
-  .deco__line {
+
+.deco__line {
     width: 100%;
     height: auto;
     display: flex;
@@ -264,7 +264,7 @@ body {
 }
 
 .date__box h3 {
-    color:var(--color--blue);
+    color: var(--color--blue);
     font-size: 1.1rem;
 }
 
@@ -292,14 +292,14 @@ body {
     font-weight: bold;
     letter-spacing: -0.062em;
     word-spacing: -0.0375em;
-    color:var(--color--blue-dark);
+    color: var(--color--blue-dark);
     z-index: 5;
 }
 
-.deco__05{
+.deco__05 {
     margin-top: -1.8rem;
     width: 58%;
-    height:10px;
+    height: 10px;
     background-color: #ccedaf;
     background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
     opacity: 0.4;
@@ -321,7 +321,7 @@ body {
 
 
 
-.adderss__box h5{
+.adderss__box h5 {
     font-size: 1.068rem;
     color: #c1ab8b;
     margin-bottom: 1.6rem;
@@ -355,7 +355,6 @@ body {
 
 
 .call__box a {
-    position: relative;
     height: 62px;
     line-height: 62px;
     align-items: center;
@@ -365,13 +364,10 @@ body {
     padding: 0 7rem;
     border-radius: 1rem;
     color: var(--color--white);
-    background-color: #ab845f ;
+    background-color: #ab845f;
     box-shadow: 2px 5px 5px 2px rgba(125, 98, 74, 0.227);
 }
 
-.call__box a span{
-    
-}
 
 .material-symbols-outlined {
     color: var(--color--white);
@@ -381,7 +377,82 @@ body {
 
 
 
+/*****************  bank  ******************/
 
+
+.bank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.bank__img{
+    width: 120px;
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.bank > h1{
+    font-family: var(--font-point);
+    font-size: 1.8rem;
+    color: var(--color--blue);
+}
+
+
+.bank__box{
+    width: 87%;
+    margin-bottom: 3rem;
+}
+
+
+.bank__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4eef567;
+    padding: 0.5rem 0;
+    /* border: 2px solid var(--color--blue); */
+    border-radius: 1rem;
+    background-color: #d4eef567;    
+    margin-bottom: 1rem;
+}
+
+
+.bank__list > h6{
+    margin: 0;
+    font-size: 1.2rem;
+    font-stretch: 0.0375em;
+    letter-spacing: 0.072em;
+    margin: 0 2.4rem;
+}
+    
+
+.bank__input{
+    border:0;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-stretch: 0.0375em;
+    color: var(--color--blue);
+    margin-left: -0.8rem;
+    width: 180px;
+}
+
+.copy__btn{
+    border:0;
+    background-color: transparent;
+    background-color: var(--color--blue-dark);
+    padding: 0.9rem 2.1rem;
+    border-radius: 0.5rem;
+    font-size: 0.92rem;
+    font-stretch: 0.0675em;
+    color: var(--color--white);
+    box-shadow: 0px 3px 3px 1px rgba(125, 98, 74, 0.227);
+    margin-right: 1rem;
+}
 
 
 
@@ -395,58 +466,58 @@ body {
 @media screen and (max-width: 600px) {
 
 
- /*****************  bg  ******************/
+    /*****************  bg  ******************/
 
- html {
-    width: 100%;
-    height: 100%;
-    background-image: url(./greenBG.jpg);
-    background-position: center;
-    background-size: cover;
-    z-index: -2;
-    transition: all 400ms ease;
-}
+    html {
+        width: 100%;
+        height: 100%;
+        background-image: url(./greenBG.jpg);
+        background-position: center;
+        background-size: cover;
+        z-index: -2;
+        transition: all 400ms ease;
+    }
 
-body {
-    max-width: 600px;
-    /* background-image: url(./greenBG.jpg); */
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-}
-
-
- .contaienr__bg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    z-index: 5;
-}
-
-.container__main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 89vw;
-    height: auto;
-    background-image: url(./paper_bg.jpg);
-    border-radius: 0.2rem;
-    border: 2px solid;
-    border-image: linear-gradient(to right bottom, #e6cfa3, #ba7b36);
-    border-image-slice: 1;
-    margin-top: 1.4rem;
-    margin-bottom: 3.5rem;
-    /* z-index: 1; */
-}
+    body {
+        max-width: 600px;
+        /* background-image: url(./greenBG.jpg); */
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
 
 
+    .contaienr__bg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .container__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 89vw;
+        height: auto;
+        background-image: url(./paper_bg.jpg);
+        border-radius: 0.2rem;
+        border: 2px solid;
+        border-image: linear-gradient(to right bottom, #e6cfa3, #ba7b36);
+        border-image-slice: 1;
+        margin-top: 1.4rem;
+        margin-bottom: 3.5rem;
+        /* z-index: 1; */
+    }
 
 
 
 
 
- /*****************  bg_deco  ******************/
+
+
+    /*****************  bg_deco  ******************/
 
     .deco-box {
         width: 100vw;
@@ -480,7 +551,7 @@ body {
 
 
 
- /*****************  Title text  ******************/
+    /*****************  Title text  ******************/
 
     .title__text {
         width: 83%;
@@ -495,7 +566,7 @@ body {
         line-height: 5.7rem;
         text-align: center;
         word-break: keep-all;
-        color:var(--color--yellow);
+        color: var(--color--yellow);
 
     }
 
@@ -506,7 +577,7 @@ body {
         text-align: center;
         word-break: keep-all;
         letter-spacing: -0.032em;
-        color:var(--color--blue);
+        color: var(--color--blue);
     }
 
     .title__text h3 {
@@ -525,36 +596,36 @@ body {
 
 
 
- /*****************  text  ******************/
+    /*****************  text  ******************/
 
 
- .profile__img{
-    width:87%;
-}
+    .profile__img {
+        width: 87%;
+    }
 
 
     .detail__text {
-        width: 74%;
+        width: 77%;
         text-align: center;
         word-break: keep-all;
         font-size: 1.1em;
         line-height: 1.72em;
         letter-spacing: -0.062em;
-        color:var(--color--blue);
+        color: var(--color--blue);
         margin-bottom: 0.9rem;
     }
 
     .name__text {
         font-size: 1.2rem;
         margin-bottom: 2.0rem;
-        color:var(--color--blue-dark);
+        color: var(--color--blue-dark);
         font-weight: bold;
     }
 
 
 
 
-/*****************  date  ******************/
+    /*****************  date  ******************/
 
     .date__box {
         display: flex;
@@ -574,7 +645,7 @@ body {
     }
 
     .date__box h3 {
-        color:var(--color--blue);
+        color: var(--color--blue);
     }
 
     .date__box h2 {
@@ -590,33 +661,33 @@ body {
 
 
 
-    
-  /*****************  line  ******************/
 
-  .deco__line {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    /*****************  line  ******************/
 
-
-
-.deco__line .deco04 {
-    width: 42px;
-    height: 50px;
-    background-image: url(./gr___005.png);
-    background-size: contain;
-    margin-bottom: 2rem;
-    margin-top: 1.8rem;
-}
+    .deco__line {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
+    .deco__line .deco04 {
+        width: 42px;
+        height: 50px;
+        background-image: url(./gr___005.png);
+        background-size: contain;
+        margin-bottom: 2rem;
+        margin-top: 1.8rem;
+    }
 
-/*****************  Location  ******************/
+
+
+
+    /*****************  Location  ******************/
 
     .adderss__box {
         display: flex;
@@ -630,7 +701,7 @@ body {
         font-size: 1.5rem;
         font-weight: bold;
         letter-spacing: 0.02rem;
-        color:var(--color--blue-dark);
+        color: var(--color--blue-dark);
     }
 
     .adderss__box p {
@@ -639,14 +710,14 @@ body {
         letter-spacing: 0.02rem;
     }
 
-    .adderss__box h5{
+    .adderss__box h5 {
         font-size: 0.9rem;
     }
-    
-    .deco__05{
+
+    .deco__05 {
         margin-top: -1.5rem;
         width: 73%;
-        height:10px;
+        height: 10px;
         background-color: #ccedaf;
         background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
         opacity: 0.4;
@@ -654,31 +725,133 @@ body {
 
 
 
-/*****************  Call  ******************/
+    /*****************  Call  ******************/
 
 
 
-.call__box {
+    .call__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+
+    .call__box a {
+        width: 100%;
+        text-align: center;
+        height: 58px;
+        line-height: 58px;
+        align-items: center;
+        font-size: 1rem;
+        letter-spacing: 0.056rem;
+        padding: 0;
+        box-shadow: 2px 5px 5px 2px rgba(125, 98, 74, 0.227);
+        margin: 0rem 0 2rem 0;
+    }
+
+
+    .box01 {
+        text-align: center;
+    }
+
+    .box01 input {
+        border: none;
+        font-size: 15px;
+        outline: none;
+        text-align: center;
+    }
+
+    .box01 button {
+        border: none;
+        width: 60px;
+        max-width: 100px;
+        vertical-align: bottom;
+    }
+
+    .box01 button img {
+        width: 100%;
+    }
+
+
+
+
+
+/*****************  bank  ******************/
+
+
+.bank__img{
+    width: 100px;
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.bank > h1{
+    font-family: var(--font-point);
+    font-size: 1.8rem;
+    color: var(--color--blue);
+}
+
+
+
+.bank__box{
+    width: 87%;
+    margin-bottom: 3rem;
+}
+
+
+.bank__list{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    background-color: #d4eef567;
+    padding: 0.5rem 0;
+    /* border: 2px solid var(--color--blue); */
+    border-radius: 1rem;
+    background-color: #d4eef567;    
+    margin-bottom: 1rem;
 }
 
 
-.call__box a {
-    width: 100%;
-    text-align: center;
-    height: 58px;
-    line-height: 58px;
-    align-items: center;
+.bank__list > h6{
+    color:var(--color--blue);
+    margin: 0;
+    font-size: 1.1rem;
+    font-stretch: 0.0375em;
+    letter-spacing: 0.072em;
+    margin-left: 1rem;
+}
+    
+
+.bank__input{
+    border:0;
+    background-color: transparent;
     font-size: 1rem;
-    letter-spacing: 0.056rem;
-    padding: 0;
-    box-shadow: 2px 5px 5px 2px rgba(125, 98, 74, 0.227);
-    margin: 0rem 0 2rem 0;
+    font-stretch: 0.0375em;
+    color: var(--color--blue);
+    margin-left: 0.8rem;
+    width: 158px;
 }
+
+.copy__btn{
+    border:0;
+    background-color: transparent;
+    background-color: var(--color--blue-dark);
+    padding: 0.9rem 1.1rem;
+    border-radius: 0.5rem;
+    font-size: 0.92rem;
+    font-stretch: 0.0675em;
+    color: var(--color--white);
+    box-shadow: 0px 3px 3px 1px rgba(125, 98, 74, 0.227);
+    margin-right: -0.1rem;
+}
+
+
+
+
 
 
 
