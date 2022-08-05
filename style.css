@@ -819,20 +819,20 @@ body {
 .bank__list > h6{
     color:var(--color--blue);
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-stretch: 0.0375em;
     letter-spacing: 0.072em;
-    margin-left: 1rem;
+    margin-left: 0.8rem;
 }
     
 
 .bank__input{
     border:0;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-stretch: 0.0375em;
     color: var(--color--blue);
-    margin-left: 0.8rem;
+    margin-left: 0.7rem;
     width: 158px;
 }
 
