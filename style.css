@@ -805,7 +805,7 @@ body {
 .bank__list{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     background-color: #d4eef567;
     padding: 0.5rem 0;
@@ -819,10 +819,10 @@ body {
 .bank__list > h6{
     color:var(--color--blue);
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     font-stretch: 0.0375em;
     letter-spacing: 0.072em;
-    margin-left: 0.8rem;
+    margin-left: 1rem;
 }
     
 
@@ -832,8 +832,8 @@ body {
     font-size: 0.9rem;
     font-stretch: 0.0375em;
     color: var(--color--blue);
-    margin-left: 0.7rem;
-    width: 158px;
+    width: 150px;
+    text-align: center;
 }
 
 .copy__btn{
