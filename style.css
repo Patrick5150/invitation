@@ -117,7 +117,6 @@ body {
     width: 18em;
     right: -12px;
     top: -5px;
-
 }
 
 
@@ -436,9 +435,9 @@ body {
 
     .deco01 {
         position: fixed;
-        width: 1rem;
-        bottom: -18px;
-        left: -28px;
+        width: 16rem;
+        bottom: -40px;
+        left: -25px;
         z-index: -1;
     }
 
@@ -455,6 +454,7 @@ body {
         width: 14em;
         right: -12px;
         top: -5px;
+
 
     }
 
