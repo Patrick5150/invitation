@@ -32,9 +32,8 @@
         </div>
 
         <div class="container__main">
-            <!-- 
-             *****************   Title text  *******************
-            -->
+             
+            <!--*****************   Title text  *******************-->
             <div class="title__text fade-in">
                 <h2>유재건<P>
                 </h2>
@@ -44,25 +43,19 @@
                 <h2>초대합니다</h2>
             </div>
 
-        
-            <!-- 
-             *****************   text   *******************
-            -->
-
+            <!--*****************   profile img  *******************-->
             <img src="./profileimg.png" alt="" class="profile__img fade-in">
 
+            <!--*****************   text   *******************-->
             <p class="detail__text fade-in">저의 아버지 고리(鼓里)<br>
                 유 재 건(그레고리오)의 산수(傘壽)(2020)와
                 자서전 출간을 기념하는 축하자리를 마련하여
                 모시고자 하오니<br>
                 부디 참석하여 주시기 바랍니다.
             </p>
-            
             <h4 class="name__text fade-in">아들 유인우, 유인욱 올림</h4>
 
-            <!-- 
-             *****************   date  *******************
-            -->
+            <!--*****************   date  *******************-->
             <div class="date__box fade-in">
                 <h3>2022</h3>
                 <div class="circle"></div>
@@ -72,20 +65,11 @@
             </div>
 
 
-
-            <!-- 
-             *****************   line  *******************
-            -->
-            <div class="deco__line fade-in">
+            <!--*****************   line  *******************-->
                 <div class="deco04"></div>
-                <!-- <h3>오시는 길</h3> -->
-            </div>
 
 
-
-            <!-- 
-             *****************   Location  *******************
-            -->
+            <!--*****************   Location  *******************-->
             <div class="adderss__box">
                 <h2>오크우드 호텔 오크룸 돌</h2>
                 <div class="deco__05"></div>
@@ -93,15 +77,21 @@
                     서울시 강남구 테헤란로 87길 46 오크우드 프리미어 코엑스 센터</p>
                 <h5>※ 무료주차 2시간 제공됩니다.</h5>
 
-
-                <!-- 카카오 지도 -->
+            
+                <a href="https://naver.me/5JJVDjMj" class="map" target="_blank">
+                    <img src="./map_02.png" alt="" class="map__img">
+                </a>
+           
+                    
+    
+                <!-- 카카오 지도 
                 <div id="daumRoughmapContainer1659595025339"
                     class="root_daum_roughmap root_daum_roughmap_landing kakao__map" style="width:88%; margin-bottom: 20px;">
                     <script charset="UTF-8" class="daum_roughmap_loader_script"
                         src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js">
                     </script>
 
-                    <!-- 실행 스크립트 -->
+                    <!-- 실행 스크립트 
                     <script charset="UTF-8">
                         new daum.roughmap.Lander({
                             "timestamp": "1659595025339",
@@ -111,53 +101,48 @@
                         }).render();
                     </script>
                 </div>
-                <!-- <img src="./map.png" alt="오크우드 호텔 지도 이미지" class="map__img">
-                <a href="https://naver.me/5JJVDjMj" class="naver__map" target="_blank">네이버지도</a> -->
+                -->
 
 
-
-            <!-- 
-             *****************   Call  *******************
-            -->
+            <!--*****************   Call  *******************-->
                 <div class="call__box fade-in">
-                    
                     <a href="tel:0234667000">
-                        <!-- <span class="material-symbols-outlined">
-                        call
-                    </span> -->
-                        오크우드호텔에 전화하기</a>
+                    오크우드호텔에 전화하기</a>
                 </div>
 
 
+            <!--*****************   bank  *******************-->
 
                 <div class="bank">
                     <img src="./letter.png" alt="" class="bank__img">
                     <h1>마음 전하실 곳</h1>
-                    
                 </div>
     
                 <div class="bank__box">
                     <div class="bank__list">
-                        <h6 class="bank__p">유재건</h6>
-                        <input id="code_html" class="bank__input" type="text" value="농협 11112509426" autocomplete="off" readonly=""> 
+                        <h6>유재건</h6><b>농협</b>
+                        <input id="code_html" 
+                        class="bank__input" 
+                        type="text" 
+                        value="11112509426" 
+                        autocomplete="off" 
+                        readonly=""> 
                         <input class="copy__btn" type="button" value="복사" /> 
                     </div>
-                    
-                    <!-- <input
-                    id="code_direct" type="text" value="족발" autocomplete="off" readonly=""> 
-                    <input type="button" value="복사" /> 
-                    <input
-                    id="code_reddit" type="text" value="수육" autocomplete="off" readonly=""> 
-                    <input type="button" value="복사" /> -->
+<!-- 
+                    <div class="bank__list">
+                        <h6>name</h6><b>bank</b>
+                        <input id="code_html" 
+                        class="bank__input" 
+                        type="text" 
+                        value="  number  " 
+                        autocomplete="off" readonly=""> 
+                        <input class="copy__btn" type="button" value="복사" /> 
+                    </div> -->
                 </div>
-    
             </div>
     </container>
 
-  
-
-    
-    
     <script>document.addEventListener(
         "click", function(e) {
               var t = e.target;  
@@ -167,21 +152,6 @@
     document.getSelection().removeAllRanges();  //선택 영역 해제  
     t.focus();  //input.select(); 때 옮겨진 포커스를 원래대로 돌린다  
     alert('복사되었습니다, 감사합니다.');});</script>
-
-
-
-    
-<!-- <script>
-    function copy_to_clipboard() {
-    var copyText = document.getElementById('myInput');
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    document.execCommand("Copy");
-    alert('복사되었습니다, 감사합니다.');
-} -->
-
-
-
 
 
 </script>
