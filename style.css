@@ -315,7 +315,7 @@ body {
 }
 
 
-.map{
+.map {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -327,8 +327,8 @@ body {
     border: 1.2px solid rgb(234, 217, 209);
 }
 
-.map__img{
-    width: 100%;    
+.map__img {
+    width: 100%;
 }
 
 /*****************  Call  ******************/
@@ -374,18 +374,13 @@ body {
 }
 
 
-.bank>h1 {
-    font-family: var(--font-point);
-    font-size: 1.8rem;
-    color: var(--color--blue);
-}
-
-
 .bank__box {
+    display: grid;
+    grid-template-columns: 1re 1re 1re;
     width: 87%;
     margin-bottom: 3rem;
+    color: var(--color--blue);
 }
-
 
 .bank__list {
     display: flex;
@@ -399,27 +394,19 @@ body {
     margin-bottom: 1rem;
 }
 
-
-.bank__list>h6 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-stretch: 0.0375em;
-    letter-spacing: 0.072em;
-    margin-left: 1.8rem;
+.bank_name {
+    margin-left: 2rem;
 }
 
-
-
-
 .bank__input {
+    width: 7rem;
     border: 0;
     background-color: transparent;
     font-size: 1.1rem;
     font-stretch: 0.0375em;
     color: var(--color--blue);
-    /* margin-left: -0.8rem; */
-    width: 150px;
 }
+
 
 .copy__btn {
     border: 0;
@@ -434,11 +421,14 @@ body {
     margin-right: 1rem;
 }
 
-.bank__box .bank__list>b {
-    color: var(--color--blue);
-    margin-left: 0.5rem;
 
-}
+
+
+
+
+
+
+
 
 
 
@@ -774,61 +764,32 @@ body {
         align-items: center;
         background-color: #d4eef567;
         padding: 0.5rem 0;
-        /* border: 2px solid var(--color--blue); */
         border-radius: 1rem;
         background-color: #d4eef567;
         margin-bottom: 1rem;
     }
 
 
-    .bank__list>h6 {
+
+
+    .bank__box {
+        font-size: 0.96rem;
+        width: 95%;
+        margin-bottom: 3rem;
         color: var(--color--blue);
-        margin: 0;
-        font-size: 1.0rem;
-        font-stretch: 0.0375em;
-        letter-spacing: 0.072em;
-        margin-left: 1.4rem;
     }
 
+    .bank_name {
+        margin-left: 1.5rem;
+    }
 
     .bank__input {
-        border: 0;
-        width: 130px;
-        font-size: 0.95rem;
+        width: 7.2rem;
     }
 
     .copy__btn {
         padding: 0.9rem 1.1rem;
     }
-
-    .bank__box .bank__list>b {
-        font-size: 0.86rem;
-        color: var(--color--blue);
-        margin-left: 0.6rem;
-
-    }
-
-
-    .bank__list > h6{
-        font-size: 0.9rem;
-        margin-left: 0.9rem;
-
-    }
-
-    .bank__input{
-        width: 87px;
-        margin-left: 0;
-        padding-left: 0.3rem;
-    }
-
-    .bank__input b{
-        font-size: 0.8rem;
-        margin-left: -0.2rem;
-    }
-
-
-
-
 
 
 }
@@ -843,7 +804,7 @@ body {
 /* 최대너비 376px으로 지정 */
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 380px) {
 
     /*****************  Title text  ******************/
 
@@ -897,26 +858,65 @@ body {
         margin-bottom: 0.9rem;
     }
 
-    .adderss__box p{
+    .adderss__box p {
         font-size: 1.026rem;
     }
 
 
+}
 
-    .bank__list > h6{
-        font-size: 0.9rem;
-        margin-left: 0.9rem;
 
+
+/*=============  MEDIA QUERIES (SMALL DEVICES)Mobile  =============*/
+/* 최대너비 360px으로 지정 */
+
+
+@media screen and (max-width: 360px) {
+
+
+
+    /*****************  bank  ******************/
+
+
+    .bank__box {
+        width: 95%;
+        margin-bottom: 3rem;
+        color: var(--color--blue);
     }
 
-    .bank__input{
-        width: 87px;
-        margin-left: 0;
-        padding-left: 0.3rem;
+
+    .bank__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #d4eef567;
+        border-radius: 1rem;
+        background-color: #d4eef567;
+        margin-bottom: 1rem;
     }
 
-    .bank__input b{
-        font-size: 0.8rem;
-        margin-left: -0.2rem;
+
+    .bank_name {
+        font-size: 1.1rem;
+        margin: 0;
+        padding: 0.6rem;
     }
+
+    .bank_bank {
+        margin-bottom: 0.2rem;
+    }
+
+    .bank__input {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+
+    .copy__btn {
+        width: 90%;
+        margin: 0;
+    }
+
 }
