@@ -809,6 +809,22 @@ body {
     }
 
 
+    .bank__list > h6{
+        font-size: 0.9rem;
+        margin-left: 0.9rem;
+
+    }
+
+    .bank__input{
+        width: 87px;
+        margin-left: 0;
+        padding-left: 0.3rem;
+    }
+
+    .bank__input b{
+        font-size: 0.8rem;
+        margin-left: -0.2rem;
+    }
 
 
 
