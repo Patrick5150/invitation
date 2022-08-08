@@ -268,7 +268,7 @@ body {
 
 /*****************  Location  ******************/
 
-.adderss__box {
+.address__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,7 +276,7 @@ body {
     width: 95%;
 }
 
-.adderss__box h2 {
+.address__box h2 {
     font-size: 1.78rem;
     line-height: 2em;
     font-weight: bold;
@@ -295,8 +295,8 @@ body {
     opacity: 0.4;
 }
 
-.adderss__box p {
-    width: 70%;
+.address__box p {
+    width: 74%;
     text-align: center;
     word-break: keep-all;
     font-size: 1.35em;
@@ -308,7 +308,7 @@ body {
     margin-top: 1rem;
 }
 
-.adderss__box h5 {
+.address__box h5 {
     font-size: 1.068rem;
     color: #c1ab8b;
     margin-bottom: 1.6rem;
@@ -646,7 +646,7 @@ body {
 
     /*****************  Location  ******************/
 
-    .adderss__box {
+    .address__box {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -654,20 +654,20 @@ body {
         margin-top: 1.3rem;
     }
 
-    .adderss__box h2 {
+    .address__box h2 {
         font-size: 1.5rem;
         font-weight: bold;
         letter-spacing: 0.02rem;
         color: var(--color--blue-dark);
     }
 
-    .adderss__box p {
+    .address__box p {
         font-size: 1.1rem;
         line-height: 1.58rem;
         letter-spacing: 0.02rem;
     }
 
-    .adderss__box h5 {
+    .address__box h5 {
         font-size: 0.9rem;
     }
 
@@ -848,7 +848,7 @@ body {
     }
 
     .detail__text {
-        width: 78%;
+        width: 80%;
         text-align: center;
         word-break: keep-all;
         font-size: 1.089em;
@@ -858,7 +858,7 @@ body {
         margin-bottom: 0.9rem;
     }
 
-    .adderss__box p {
+    .address__box p {
         font-size: 1.026rem;
     }
 
