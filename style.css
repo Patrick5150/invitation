@@ -221,18 +221,7 @@ body {
 /*****************  line  ******************/
 
 
-
-.deco__line {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.deco__line .deco04 {
+.deco04 {
     width: 52px;
     height: 58px;
     background-image: url(./gr___005.png);
@@ -284,6 +273,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
 }
 
 .adderss__box h2 {
@@ -305,7 +295,6 @@ body {
     opacity: 0.4;
 }
 
-
 .adderss__box p {
     width: 70%;
     text-align: center;
@@ -319,8 +308,6 @@ body {
     margin-top: 1rem;
 }
 
-
-
 .adderss__box h5 {
     font-size: 1.068rem;
     color: #c1ab8b;
@@ -328,23 +315,23 @@ body {
 }
 
 
-
-
-
-/*****************  Call  ******************/
-
-
-
-/* .call__box {
+.map{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5rem;
-    margin-top: 2rem;
-} */
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 91%;
+    border: 1.2px solid rgb(234, 217, 209);
+}
 
+.map__img{
+    width: 100%;    
+}
 
+/*****************  Call  ******************/
 
 .call__box {
     display: flex;
@@ -352,7 +339,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 .call__box a {
     height: 62px;
@@ -369,18 +355,11 @@ body {
 }
 
 
-.material-symbols-outlined {
-    color: var(--color--white);
-}
-
-
-
-
 
 /*****************  bank  ******************/
 
 
-.bank{
+.bank {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -388,61 +367,62 @@ body {
     margin-bottom: 2rem;
 }
 
-.bank__img{
+.bank__img {
     width: 120px;
     margin-top: 2rem;
     margin-bottom: 0.3rem;
 }
 
 
-.bank > h1{
+.bank>h1 {
     font-family: var(--font-point);
     font-size: 1.8rem;
     color: var(--color--blue);
 }
 
 
-.bank__box{
+.bank__box {
     width: 87%;
     margin-bottom: 3rem;
 }
 
 
-.bank__list{
+.bank__list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #d4eef567;
     padding: 0.5rem 0;
-    /* border: 2px solid var(--color--blue); */
     border-radius: 1rem;
-    background-color: #d4eef567;    
+    background-color: #d4eef567;
     margin-bottom: 1rem;
 }
 
 
-.bank__list > h6{
+.bank__list>h6 {
     margin: 0;
     font-size: 1.2rem;
     font-stretch: 0.0375em;
     letter-spacing: 0.072em;
-    margin: 0 2.4rem;
+    margin-left: 1.8rem;
 }
-    
 
-.bank__input{
-    border:0;
+
+
+
+.bank__input {
+    border: 0;
     background-color: transparent;
     font-size: 1.1rem;
     font-stretch: 0.0375em;
     color: var(--color--blue);
-    margin-left: -0.8rem;
-    width: 180px;
+    /* margin-left: -0.8rem; */
+    width: 150px;
 }
 
-.copy__btn{
-    border:0;
+.copy__btn {
+    border: 0;
     background-color: transparent;
     background-color: var(--color--blue-dark);
     padding: 0.9rem 2.1rem;
@@ -454,7 +434,11 @@ body {
     margin-right: 1rem;
 }
 
+.bank__box .bank__list>b {
+    color: var(--color--blue);
+    margin-left: 0.5rem;
 
+}
 
 
 
@@ -553,6 +537,7 @@ body {
 
     /*****************  Title text  ******************/
 
+
     .title__text {
         width: 83%;
         margin-top: 4.56em;
@@ -635,7 +620,6 @@ body {
         margin-bottom: 1.5rem;
     }
 
-
     .circle {
         width: 0.36rem;
         height: 0.36rem;
@@ -658,33 +642,16 @@ body {
     }
 
 
-
-
-
-
     /*****************  line  ******************/
 
-    .deco__line {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-    .deco__line .deco04 {
+    .deco04 {
         width: 42px;
         height: 50px;
         background-image: url(./gr___005.png);
         background-size: contain;
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
         margin-top: 1.8rem;
     }
-
-
 
 
     /*****************  Location  ******************/
@@ -726,8 +693,6 @@ body {
 
 
     /*****************  Call  ******************/
-
-
 
     .call__box {
         display: flex;
@@ -778,80 +743,164 @@ body {
 
 
 
-/*****************  bank  ******************/
+    /*****************  bank  ******************/
 
 
-.bank__img{
-    width: 100px;
-    margin-top: 2rem;
-    margin-bottom: 0.3rem;
+    .bank__img {
+        width: 100px;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+    }
+
+
+    .bank>h1 {
+        font-family: var(--font-point);
+        font-size: 1.8rem;
+        color: var(--color--blue);
+    }
+
+
+
+    .bank__box {
+        width: 95%;
+        margin-bottom: 3rem;
+    }
+
+
+    .bank__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d4eef567;
+        padding: 0.5rem 0;
+        /* border: 2px solid var(--color--blue); */
+        border-radius: 1rem;
+        background-color: #d4eef567;
+        margin-bottom: 1rem;
+    }
+
+
+    .bank__list>h6 {
+        color: var(--color--blue);
+        margin: 0;
+        font-size: 1.0rem;
+        font-stretch: 0.0375em;
+        letter-spacing: 0.072em;
+        margin-left: 1.4rem;
+    }
+
+
+    .bank__input {
+        border: 0;
+        width: 130px;
+        font-size: 0.95rem;
+    }
+
+    .copy__btn {
+        padding: 0.9rem 1.1rem;
+    }
+
+    .bank__box .bank__list>b {
+        font-size: 0.86rem;
+        color: var(--color--blue);
+        margin-left: 0.6rem;
+
+    }
+
+
+
+
+
+
+
+
 }
 
 
-.bank > h1{
-    font-family: var(--font-point);
-    font-size: 1.8rem;
-    color: var(--color--blue);
-}
-
-
-
-.bank__box{
-    width: 87%;
-    margin-bottom: 3rem;
-}
-
-
-.bank__list{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #d4eef567;
-    padding: 0.5rem 0;
-    /* border: 2px solid var(--color--blue); */
-    border-radius: 1rem;
-    background-color: #d4eef567;    
-    margin-bottom: 1rem;
-}
-
-
-.bank__list > h6{
-    color:var(--color--blue);
-    margin: 0;
-    font-size: 1.0rem;
-    font-stretch: 0.0375em;
-    letter-spacing: 0.072em;
-    margin-left: 1rem;
-}
-    
-
-.bank__input{
-    border:0;
-    background-color: transparent;
-    font-size: 0.9rem;
-    font-stretch: 0.0375em;
-    color: var(--color--blue);
-    width: 150px;
-    text-align: center;
-}
-
-.copy__btn{
-    border:0;
-    background-color: transparent;
-    background-color: var(--color--blue-dark);
-    padding: 0.9rem 1.1rem;
-    border-radius: 0.5rem;
-    font-size: 0.92rem;
-    font-stretch: 0.0675em;
-    color: var(--color--white);
-    box-shadow: 0px 3px 3px 1px rgba(125, 98, 74, 0.227);
-}
 
 
 
 
 
+/*=============  MEDIA QUERIES (SMALL DEVICES)Mobile  =============*/
+/* 최대너비 376px으로 지정 */
 
 
+@media screen and (max-width: 376px) {
+
+    /*****************  Title text  ******************/
+
+
+    .title__text {
+        width: 83%;
+        margin-top: 4.56em;
+        margin-bottom: 0.8rem;
+    }
+
+
+    .title__text h1 {
+        font-family: var(--font-point);
+        font-size: 4.5rem;
+        line-height: 5.2rem;
+        text-align: center;
+        word-break: keep-all;
+        color: var(--color--yellow);
+
+    }
+
+    .title__text h2 {
+        font-family: var(--font-point);
+        font-size: 3.3rem;
+        line-height: 3.8rem;
+        text-align: center;
+        word-break: keep-all;
+        letter-spacing: -0.032em;
+        color: var(--color--blue);
+    }
+
+    .title__text h3 {
+        font-family: var(--font-point);
+        font-size: 2.3rem;
+        line-height: 3.8rem;
+        text-align: center;
+        word-break: keep-all;
+        color: #7d89a0;
+        margin-left: -0.4rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .detail__text {
+        width: 78%;
+        text-align: center;
+        word-break: keep-all;
+        font-size: 1.089em;
+        line-height: 1.6em;
+        letter-spacing: -0.062em;
+        color: var(--color--blue);
+        margin-bottom: 0.9rem;
+    }
+
+    .adderss__box p{
+        font-size: 1.026rem;
+    }
+
+
+
+    .bank__list > h6{
+        font-size: 0.9rem;
+        margin-left: 0.9rem;
+
+    }
+
+    .bank__input{
+        width: 87px;
+        margin-left: 0;
+        padding-left: 0.3rem;
+    }
+
+    .bank__input b{
+        font-size: 0.8rem;
+        margin-left: -0.2rem;
+    }
 }
